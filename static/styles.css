@@ -1,0 +1,120 @@
+/* 스타일 전역 설정 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #ad006b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
+
+.list-container {
+    padding: 10px;
+    background: #f7f7f7;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.list-container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.list-container div:last-child {
+    margin-bottom: 0;
+}
+
+.list-container span {
+    font-weight: bold;
+}
+
+.list-container button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background: #ad006b;
+    color: white;
+    cursor: pointer;
+}
+
+.list-container button:hover {
+    background: #ad006b;
+}
+
+.car-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background: #ad006b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ad006b;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #ad006b;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
